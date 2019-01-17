@@ -1,0 +1,43 @@
+{
+  "name": "file-chooser",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "ngc": "ngc",
+    "build": "rm -rf dist && npm run ngc",
+    "publishPackage": "npm run build && npm publish"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "Diego França",
+  "license": "MIT",
+  "homepage": "",
+  "devDependencies": {
+    "@angular/common": "5.0.3",
+    "@angular/compiler": "5.0.3",
+    "@angular/compiler-cli": "5.0.3",
+    "@angular/core": "5.0.3",
+    "@angular/forms": "^5.2.7",
+    "@angular/platform-browser": "5.0.3",
+    "@angular/platform-browser-dynamic": "5.0.3",
+    "@types/node": "^9.4.6",
+    "ionic-angular": "3.9.2",
+    "rxjs": "5.5.2",
+    "typescript": "2.4.2",
+    "zone.js": "0.8.18"
+  },
+  "dependencies": {
+    "@ionic-native/core": "^4.19.0",
+    "@ionic-native/file": "^4.19.0",
+    "@ionic-native/file-chooser": "^4.19.0",
+    "@ionic-native/file-path": "^4.19.0"
+  }
+}
