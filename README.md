@@ -2,9 +2,9 @@
 
 ## Required
 
->node v8.2.1 or up
->npm 5.3.0 or up
->ionic 3.9.2
+* node v8.2.1 or up
+* npm 5.3.0 or up
+* ionic 3.9.2
 
 ## Install
 
